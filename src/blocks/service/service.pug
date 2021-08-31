@@ -1,0 +1,6 @@
+mixin service(data)
+	figure.service
+		picture.service__img
+			img(src="images/"+data.img+".jpg", srcset="images/"+data.img+"@2x.jpg 2x", alt=data.alt)
+		figcaption.service__title!=data.title
+			span.service__price!=data.price

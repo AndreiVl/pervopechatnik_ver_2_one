@@ -1,0 +1,34 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Первопечатник')
+
+	body
+		include ../blocks/mixins.pug
+
+		div.container-fluid
+			include ../blocks/header/header.pug
+
+		div.container-fluid
+			include ../blocks/main-service/main-service.pug
+
+		include ../blocks/activities/activities.pug
+
+		div.container.pd-150
+			div.row
+				div.col-12
+					include ../blocks/form-action/form-action.pug
+
+		include ../blocks/info/info.pug
+
+		div.container-fluid
+			include ../blocks/services/services.pug
+
+		div.container.pd-b-150
+			div.row
+				div.col-12
+					include ../blocks/form-action/form-action.pug
+
+		include ../blocks/footer/footer.pug
+
+		include include/script.pug

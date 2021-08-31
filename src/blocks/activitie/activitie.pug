@@ -1,0 +1,12 @@
+mixin activitie(data)
+	div.activitie
+		div.activitie__top
+			div.activitie__img
+				picture
+					img(src="images/"+data.img, alt=data.alt)
+
+			div.activitie__title
+				h3.h3!=data.title
+
+		div.activitie__body
+			p.text!=data.text

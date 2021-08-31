@@ -1,0 +1,166 @@
+div.container-fluid
+	header.header
+		div.header__logo
+			include logo
+
+		div.header__body
+			div.header__menu
+				include menu
+
+			div.header__action
+				include btn
+
+			div.header__phone
+				a
+
+			div.header__social
+				include socicon
+
+section.main-service
+	div.main-service__info
+		h1.h1
+		p.lead
+		include btn
+
+	div.main-service__img
+		picture
+
+	div.main-service__square
+
+section.activities
+	div.container
+		div.row
+			div.col-12
+				h2.h2.mb--54
+			
+			div.col-12.col-md-4
+				div.activities__item
+					activitie
+
+			div.col-12.col-md-4
+				div.activities__item
+					activitie
+
+			div.col-12.col-md-4
+				div.activities__item
+					activitie
+
+div.container
+	div.row
+		div.col-12
+			include form-action
+
+section.info
+	div.container
+		div.row
+			div.col-4
+				div.info__wrap
+					h2.h2
+
+					feature
+
+			div.col-4
+				div.info__img
+					span.info__name
+					picture
+
+			div.col-4
+				div.info__wrap
+					feature
+
+					feature
+
+div.container-fluid
+	section.services	
+		h2.h2
+
+		ul.services__list
+			li.services__item
+				figure
+					picture
+						source(media="(min-width: 1200px)" srcset="images/question-1--error.jpg")
+						img(src="images/service-book.jpg" srcset="images/service-book@2x.jpg" alt="book")
+					figcaption dadad
+				span
+
+			li.services__item
+				figure
+
+			li.services__item
+				figure
+
+			li.services__item
+				figure
+
+			li.services__item
+				figure
+
+			li.services__item
+				figure
+
+			li.services__item
+				figure
+
+			li.services__item
+				figure
+
+div.container
+	div.row
+		div.col-12
+			include faorm-action
+
+
+footer.footer
+	div.container
+		div.row
+			div.col-12.col-md-4
+				div.footer__item
+					h3.h3
+
+					include vert-menu
+
+			div.col-12.col-md-4
+				div.footer__item
+					h3.h3
+
+					include vert-menu
+
+			div.col-12.col-md-4
+				div.footer__item
+					h3.h3
+
+					div.footer__address
+						span.text
+
+					div.footer__phone
+						a.text.link
+						a.text.link
+
+					div.footer__email
+						span.text
+							a.link
+
+					div.footer__social
+						include socicon
+
+		div.row
+			div.col-12.col-md-8
+				div.footer__copyright
+					p
+
+			div.col-12.col-md-4
+				include logo
+
+
+====================================================
+
+.operation__item {
+	@extend .mb--34;
+
+	@media(min-width: 768px) {
+		margin-bottom: 0;
+	}
+}
+.operation__item:last-child {
+	margin-bottom: 0;
+}

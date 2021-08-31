@@ -1,0 +1,83 @@
+* {
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-smooth: always;
+}
+body {
+	/* 1 Positioning */ 
+	position: relative;
+
+	/* 2 Block model */ 
+	padding: 0;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 20px;
+	line-height: 26px;
+
+	/* 4 Visual */ 
+	overflow-x: hidden;
+	color: #000000;
+
+	/* 5 Animation*/ 
+
+	/* 6 Misc */
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container-fluid {
+	/* 2 Block model */ 
+	padding: 0 15px;
+	box-sizing: border-box;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */ 
+		padding: 0 39px;
+	}
+	@media(min-width: 992px) {
+		/* 2 Block model */ 
+		padding: 0 32px;
+	}
+	@media(min-width: 1200px) {
+		/* 2 Block model */ 
+		padding: 0 30px;
+	}
+	@media(min-width: 1400px) {
+		/* 2 Block model */ 
+		padding: 0 50px;
+	}
+}
+.mobile-heiden {
+	/* 2 Block model */ 
+	display: none;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */ 
+		display: block;
+	}
+}
+.mobile-heiden--flex {
+	/* 2 Block model */ 
+	display: none;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */ 
+		display: flex;
+	}
+}

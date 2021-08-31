@@ -1,0 +1,96 @@
+.service {
+	/* 1 Positioning */
+	position: relative;
+	z-index: 10;
+
+	/* 2 Block model */
+	margin: 0;
+}
+.services .h2 {
+	/* 2 Block model */
+	margin-bottom: 54px;
+}
+.service__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+}
+.service__title {
+	/* 1 Positioning */
+	position: absolute;
+	top: 10px;
+	right: 10px;
+
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second--bold;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	color: $color-black;
+	text-align: right;
+
+	@media (min-width: 1200px) {
+		/* 1 Positioning */
+		top: 10px;
+		right: 10px;
+
+		/* 3 Typography */
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	@media (min-width: 1600px) {
+		/* 1 Positioning */
+		top: 20px;
+		right: 20px;
+
+		/* 3 Typography */
+		font-size: 24px;
+		line-height: 24px;
+	}
+	@media (min-width: 1920px) {
+		/* 1 Positioning */
+		top: 35px;
+		right: 45px;
+	}
+}
+.service__price {
+	/* 1 Positioning */
+	position: absolute;
+	top: 30px;
+	right: 0;
+	z-index: 20;
+
+	/* 2 Block model */
+	margin: 0;
+	display: block;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	color: $color-black;
+	text-align: right;
+	white-space: nowrap;
+
+	@media (min-width: 1200px) {
+		/* 1 Positioning */
+		top: 24px;
+
+		/* 3 Typography */
+		font-size: 16px;
+		line-height: 16px;
+	}
+	@media (min-width: 1600px) {
+		/* 1 Positioning */
+		top: 30px;
+
+		/* 3 Typography */
+		font-size: 18px;
+		line-height: 26px;
+	}
+}

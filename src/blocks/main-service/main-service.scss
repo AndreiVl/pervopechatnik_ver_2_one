@@ -1,0 +1,134 @@
+.main-service {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		align-items: center;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+.main-service__info {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	order: 2;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		order: 1;
+		width: 100%;
+		max-width: 400px;
+		margin-right: -237px;
+	}
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: -50px;
+		padding-left: 73px;
+		max-width: 440px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		margin-right: -121px;
+		padding-left: 103px;
+		max-width: 555px;
+	}
+	@media (min-width: 1600px) {
+		/* 2 Block model */
+		margin-right: -237px;
+		padding-left: 237px;
+		max-width: 810px;
+	}
+}
+.main-service__info .h1 {
+	/* 2 Block model */
+	margin-bottom: 16px;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 26px;
+	}
+	@media (min-width: 1600x) {
+		/* 2 Block model */
+		margin-bottom: 38px;
+	}
+}
+.main-service__info .lead {
+	/* 2 Block model */
+	margin-bottom: 34px;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		width: 100%;
+		max-width: 226px;
+		margin-bottom: 23px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		max-width: none;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		margin-bottom: 65px;
+	}
+	@media (min-width: 1600px) {
+		/* 2 Block model */
+		margin-bottom: 54px;
+	}
+}
+.main-service__img {
+	/* 2 Block model */
+	overflow: hidden;
+	margin-bottom: 34px;
+	order: 1;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+		order: 2;
+	}
+}
+.main-service__square {
+	/* 1 Positioning */
+	position: absolute;
+	content: "";
+	top: 285px;
+	left: -240px;
+
+	/* 2 Block model */
+	display: block;
+	width: 400px;
+	height: 391px;
+	box-sizing: border-box;
+
+	/* 4 Visual */
+	border: 30px solid $color-black--xlite;
+
+	@media (max-width: 1600px) {
+		/* 2 Block model */
+		display: none;
+	}
+}
+.main-service__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

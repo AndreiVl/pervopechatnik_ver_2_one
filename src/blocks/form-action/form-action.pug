@@ -1,0 +1,10 @@
+div.form-action
+	h2.h2 Lorem ipsum dolor consectetuer
+	p.text Paragraph. Lorem ipsum dolor sit amet
+
+	form.form-action__form
+		include ../btn/btn.pug
+		include ../input/input.pug
+		div.form-action__input
+			+input({type: 'text', placeholder: 'Текст'})
+		+btn({text: 'Кнопка'})

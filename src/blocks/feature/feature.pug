@@ -1,0 +1,8 @@
+mixin feature(data)
+	div.feature.mr-b-13
+		div.feature__top
+			span.feature__number!=data.number
+			span.feature__seal!=data.seal
+
+		div.feature__info
+			p.text!=data.text

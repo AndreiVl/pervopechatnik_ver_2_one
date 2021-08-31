@@ -1,0 +1,22 @@
+header.header.pd-38
+	div.header__logo
+		include ../logo/logo.pug
+
+	div.header__body.header__body-closed
+		button.header__btn(type="button")
+			span.visually-hidden Открыть меню
+			span.header__btn-visual
+
+		div.header__menu
+			include ../menu/menu.pug
+			+menu('О нас' ,'Услуги', 'Работы' ,'Отзывы','Контакты')
+
+		div.header__action
+			include ../btn/btn.pug
+			+btn({text: 'Заказать звонок'})
+
+		div.header__phone
+			a.header__link.link(href="tel:+73513621220") +7 (3513) 62-12-20
+
+		div.header__social
+			include ../socicon/socicon.pug

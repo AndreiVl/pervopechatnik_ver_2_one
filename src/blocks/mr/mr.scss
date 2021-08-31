@@ -1,0 +1,9 @@
+.mr-b-13 {
+  /* 2 Block model */
+  margin-bottom: 13px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 0;
+  }
+}

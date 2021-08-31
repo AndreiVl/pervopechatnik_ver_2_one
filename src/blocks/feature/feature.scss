@@ -1,0 +1,49 @@
+.feature {
+	/* 3 Typography */
+	text-align: center;
+
+	@media(min-width: 768px) {
+		/* 3 Typography */
+		text-align: left;
+	}
+}
+.feature__top {
+	/* 2 Block model */
+	margin-bottom: 23px;
+}
+.feature__number {
+	/* 2 Block model */
+	display: block;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second--bold;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 62px;
+	color: $color-black--xdark;
+}
+.feature__seal {
+		/* 2 Block model */
+	display: block;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: $color-black--lite;
+	text-transform: uppercase;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

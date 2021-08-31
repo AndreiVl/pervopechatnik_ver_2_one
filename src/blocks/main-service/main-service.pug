@@ -1,0 +1,13 @@
+section.main-service
+	div.main-service__info
+		h1.h1 Хотите издать книгу?
+		p.lead Наилучшим способом представить свою продукцию&nbsp;&mdash; поместить информацию о&nbsp;ней в&nbsp;каталоги. Каталоги наилучшим образом отображают внешний вид продукта, и&nbsp;описывают его характеристики.
+		include ../btn/btn.pug
+		+btn({text: 'Подробней', type: 'link'})
+
+	div.main-service__img
+		picture
+			source(media="(max-width: 992px)" srcset="images/main-service-img-768.jpg")
+			img(src="images/main-service-img.jpg" srcset="images/main-service-img@2x.jpg 2x" alt="")
+
+	div.main-service__square

@@ -1,0 +1,78 @@
+.btn {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0 15px;
+	width: 223px;
+	height: 54px;
+	box-sizing: border-box;
+
+	/* 3 Typography */
+	font-size: 20px;
+	line-height: 20px;	
+	font-family: $font-second--bold;
+	color: $color-white;
+	text-decoration: none;
+	-moz-appearance: none;
+
+	/* 4 Visual */
+	border: none;
+	cursor: pointer;
+	outline: none;
+	border-radius: 0;
+	background-color: $color-blue;
+	
+	/* 5 Animation*/
+	transition: color 0.4s;
+
+	/* 6 Misc */
+	user-select: none;
+}
+.btn:hover {
+	/* 4 Visual */
+	background-color: $color-blue--lite;
+}
+.btn:active {
+	/* 4 Visual */
+	background-color: $color-blue--dark;
+}
+.btn--disabled {
+	/* 4 Visual */
+	background-color: $color-blue--xlite;
+}
+.btn__text {
+	/* 3 Typography */
+	font-family: $color-white;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: $color-white;
+}
+.btn--menu {
+	/* 2 Block model */
+	padding: 12px 53px;
+}
+.btn__text--menu {
+	/* 3 Typography */
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

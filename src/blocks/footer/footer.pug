@@ -1,0 +1,53 @@
+footer.footer
+	div.container
+		div.row.pd-b-54
+			div.col-12.col-md-4
+				div.footer__item
+					h3.h3.mobile-heiden Меню
+
+					include ../vertical-menu/vertical-menu.pug
+					+vertical-menu({
+						items: ['О нас','Услуги','Работы', 'Контакты'
+						]
+					})
+
+			div.col-12.col-md-4
+				div.footer__item.mobile-heiden
+					h3.h3 Продукция
+
+				div.footer__menu
+				
+					+vertical-menu({
+						items: ['Журналы','Книги','Буклеты', 'Визитки'
+						]
+					})(class="mobile-heiden")
+					+vertical-menu({
+						items: ['Календари','Листовки','Каталоги', 'Конверты'
+						]
+					})(class="mobile-heiden")
+
+			div.col-12.col-md-4
+				div.footer__item
+					h3.h3(class="mobile-heiden") Контакты
+
+					div.footer__address.mobile-heiden
+						span.text г. Златоуст, ул. Скворцова, 2
+
+					div.footer__phone.mobile-heiden
+						a.text.link(href="tel:+73513621220") +7 (3513) 62-12-20
+						a.text.link(href="tel:+73513621220") +7 (3513) 62-12-20
+
+					div.footer__email.mobile-heiden
+						span.text Email: 
+							a.link(href="mailto:pp620220@mail.ru") pp620220@mail.ru
+
+					div.footer__social
+						include ../socicon/socicon.pug
+
+		div.row.mobile-heiden--flex
+			div.col-12.col-md-8
+				div.footer__copyright
+					p &copy;&nbsp;2019&nbsp;г. Вся информация, представленная на&nbsp;сайте, носит рекламный характер и&nbsp;не&nbsp;является публичной офертой.
+
+			div.col-12.col-md-4
+				include ../logo/logo.pug

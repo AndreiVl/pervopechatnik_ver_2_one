@@ -1,0 +1,37 @@
+.vertical-menu__list {
+	/* 2 Block model */
+	margin: 0;
+	padding: 0;
+
+	/* 4 Decor */
+	list-style: none;
+}
+.vertical-menu__item {
+	/* 2 Block model */
+	margin-bottom: 10px;
+
+	/* 3 Typography */
+	line-height: 16px;
+}
+.vertical-menu__item:last-child {
+	/* 2 Block model */
+	margin-bottom: 0;
+}
+.vertical-menu__link {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 5px;
+
+	/* 3 Typography */
+	font-family: $font-second--bold;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 19px;
+	color: $color-black;
+	text-decoration: none;
+}
+.vertical-menu__link:hover {
+	/* 3 Typography */
+	text-decoration: underline;
+	opacity: 0.7;
+}

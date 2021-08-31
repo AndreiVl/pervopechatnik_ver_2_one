@@ -1,0 +1,49 @@
+.form-action .h2 {
+	/* 2 Block model */
+	margin-bottom: 10px;
+
+	/* 3 Typography */
+	text-align: center;
+}
+.form-action .text {
+	/* 2 Block model */
+	margin-bottom: 54px;
+
+	/* 3 Typography */
+	text-align: center;
+}
+.form-action__form {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		flex-direction: row;
+	}
+}
+.form-action__input {
+	/* 2 Block model */
+	width: 100%;
+	max-width: 290px;
+	margin-bottom: 25px;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+		margin-right: 30px;
+	}
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

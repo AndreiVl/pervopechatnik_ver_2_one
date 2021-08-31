@@ -1,0 +1,28 @@
+section.services.pd-150
+	h2.h2 Услуги
+
+	ul.services__list
+		li.services__item
+			include ../service/service.pug
+			+service({img: 'service-journal', srcset: 'service-journal', alt: 'Журналы', title: 'Журналы', price: '200 руб.'})
+
+		li.services__item
+			+service({img: 'service-book', srcset: 'service-book', alt: 'Книги', title: 'Книги', price: '300 руб.'})
+
+		li.services__item
+			+service({img: 'service-booklets', srcset: 'service-booklets', alt: 'Буклеты', title: 'Буклеты', price: '80 руб.'})
+
+		li.services__item
+			+service({img: 'service-cutaway', srcset: 'service-cutaway', alt: 'Визитки', title: 'Визитки', price: '100 руб.'})
+
+		li.services__item
+			+service({img: 'service-calendars', srcset: 'service-calendars', alt: 'Календари', title: 'Календари', price: '250 руб.'})
+
+		li.services__item
+			+service({img: 'service-flyers', srcset: 'service-flyers', alt: 'Листовки', title: 'Листовки', price: '85 руб.'})
+
+		li.services__item
+			+service({img: 'service-catalogs', srcset: 'service-catalogs', alt: 'Каталоги', title: 'Каталоги', price: '400 руб.'})
+
+		li.services__item
+			+service({img: 'service-envelopes', srcset: 'service-envelopes', alt: 'Конверты', title: 'Конверты', price: '50 руб.'})
